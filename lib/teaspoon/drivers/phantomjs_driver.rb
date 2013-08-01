@@ -26,7 +26,7 @@ module Teaspoon
       end
 
       def script
-        File.expand_path("../phantomjs/runner.coffee", __FILE__)
+        File.expand_path("../phantomjs/runner.js", __FILE__)
       end
     end
   end
